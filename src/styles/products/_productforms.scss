@@ -1,0 +1,123 @@
+.productforms{
+    &__submit{
+        padding: 8px 30px;
+    }
+    &__login{
+        background-color:#ee0d0d;
+        padding: 8px 30px;
+    }
+
+    &__check {
+        margin-top: 30px;
+    }
+    &__login1 {
+        margin-top: 25px;
+        padding: 8px 30px;
+        background-color: #7e57c2;
+    }
+
+    &__content{
+        border-bottom: 1px solid #dfdfdf;
+    }
+
+    &__content1{
+        border-bottom: 1px solid #dfdfdf;
+    }
+
+    &__content2{
+        border-bottom: 1px solid #dfdfdf;
+    }
+
+    &__content3{
+        border-bottom: 1px solid #dfdfdf;
+    }
+
+    &__content4{
+        border-bottom: 1px solid #dfdfdf;
+        color: red;
+    }
+    &__error{
+         border: 1px solid #ff2222;
+    }
+    &__content5{
+        border-bottom: 1px solid #dfdfdf;
+        color: #8bc34a;
+    }
+    &__success{
+        border: 1px solid #8bc34a;
+    }
+
+    &__colorred{
+        float: left;
+    }
+
+    &__colorred1{
+        float: left;
+        margin-left: 8%;
+    }
+
+    &__colorred2{
+        float: left;
+        margin-left: 8%;
+    }
+
+    &__colorblue{
+      float: left;
+    }
+
+    &__colorblue1{
+       float: left;
+        margin-left: 9%;
+       
+    }
+     
+    &__colorblue2{
+       float: left;
+       margin-left: 8%;
+    }
+    &__texttitle>label{
+         font-weight: bold;
+    }
+
+    &__texttitle>input{
+         font-style: italic;
+    }
+    &__texttitle>div>input{
+        font-style: italic;
+   }
+   &__t{
+    font-weight: bold;
+   }
+   
+}
+
+.el-switch>input[type="checkbox"]:checked+.el-switch-style.blue {
+    background-color: #20a0ff;
+}
+.el-switch>input[type="checkbox"]:checked+.el-switch-style.purple {
+    background-color: #7e57c2;
+}
+
+.el-switch>input[type="checkbox"]:checked+.el-switch-style.organe {
+    background-color: #f4511e;
+}
+.el-switch>input[type="checkbox"]:checked+.el-switch-style.green {
+    background-color: #8bc34a;
+}
+
+.el-radio>input[type="radio"]+.el-radio-style.organ:after{
+    background-color: #f4511e;
+}
+.el-radio>input[type="radio"]:checked+.el-radio-style.organ:before {
+    border: 1px solid #f4511e;
+}
+
+.el-radio>input[type="radio"]+.el-radio-style.skycircle:before{
+    border-radius: 32%;
+}
+.el-radio>input[type="radio"]+.el-radio-style.skycircle:after{
+    border-radius: 25%;
+}
+.el-radio>input[type="radio"]+.el-radio-style.organ:after{
+    border-radius: 50%;
+}

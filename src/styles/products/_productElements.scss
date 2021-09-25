@@ -1,0 +1,511 @@
+
+.btn1{
+    border: none;
+    color: white;
+    width: 18%;
+    font-size: 14px;
+    padding: 9px 0px;
+    cursor: pointer;
+    border-radius: 0px;
+}
+
+.btn2{
+    border: none;
+    color: white;
+    width: 18%;
+    padding: 12px 0px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: none;
+}
+
+.btn5{
+   border:1px solid black;
+    background-color: white;
+    color: black;
+    width: 23%;
+    padding: 12px 0px;
+    font-size: 14px;
+    cursor: pointer;
+  //  border-radius: none;
+    
+}
+
+.btn6{
+    border: none;
+    background-color: white;
+    color: white;
+    width: 23%;
+    padding: 12px 0px;
+    font-size: 14px;
+    cursor: pointer;
+     border-radius: none;
+    
+}
+button{
+    margin-left: 6px;
+}
+.default {background-color: #e7e7e7; color: #444444;} /* Gray */ 
+.default:hover {background: #ddd;}
+
+.primary{background-color: #2196f3;}
+.primary:hover{background: #0b7dda;}
+
+.information{background-color: #9c27b0;}
+.information:hover{background: #db90e8;}
+
+.purple{background-color: #ba68c8;}
+.pupler:hover{background-color:#a85eb5 ;}
+
+.skyblue{background-color: #40c4ff;}
+.skyblue:hover{background: #38a0cf;}
+
+.yellow{background-color: #ff7043;}
+.yellow:hover{background: #c94e29;}
+
+.organe{background-color: #fcb322;}
+.organe.hover{background: #e4c280;}
+
+.success {background-color: #4CAF50;} /* Green */
+.success:hover {background-color: #46a049;}
+
+.danger {background-color: #f44336;} /* Red */ 
+.danger:hover {background: #da190b;}
+
+.info {background-color: #40c4ff;} /* Blue */
+.info:hover {background: #0b7dda;}
+
+.black{background-color: black;}
+.black:hover{background: #131111;}
+
+
+.btn3 {
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    width: 18%;
+    padding: 9px 0px;
+    font-size: 14px;
+    cursor: pointer;
+    
+}
+
+.btn4{
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    width: 18%;
+    padding: 12px 0px;
+    font-size: 14px;
+    cursor: pointer;
+    
+}
+
+
+.suc {
+    border-color: #4CAF50;
+    color: green;
+}
+.suc:hover {
+    background: #4CAF50;
+    color: white;
+}
+.pri{
+    border-color: #2196F3;
+    color: dodgerblue
+  }
+.pri:hover{
+    background: #2196F3;
+    color: white;
+  }
+.def {
+    border-color: #d0d8dc;
+    color: #444444;
+  }
+.def:hover {
+    background: #e7e7e7;
+    color: #444444;
+  }
+
+.infor {
+    border-color: #ad4dbe;
+    color: #ad4dbe;
+}
+.infor:hover {
+    background: #ad4dbe;
+    color: white;
+}
+.dan {
+    border-color: #f44336;
+    color: red;
+}
+.dan:hover {
+    background: #f44336;
+    color: white;
+}
+
+.pur{
+    border-color:#ba68c8 ;
+    color:#a85eb5;
+}
+.pur:hover{
+    background: #ba68c8;
+    color: white;
+}
+
+.yel{
+    border-color:#ff7043; ;
+    color:#c94e29;
+}
+.yel:hover{
+    background: #ff7043;
+    color: white;
+}
+.sky{
+    border-color:#40c4ff; ;
+    color:#40c4ff;
+}
+.sky:hover{
+    background: #40c4ff;
+    color: white;
+}
+.org{
+    border-color:#fcb322; ;
+    color:#fcb322;
+}
+.org:hover{
+    background: #fcb322;
+    color: white;
+}
+.bla:hover{
+    background: black;
+    color: white;
+}
+
+.btn-lg{
+    font-size: 18px;
+    background-color: #2196f3;
+}
+.btn-md{
+    font-size: 16px;
+    background-color:#95cc47;
+}
+.btn-xs{
+    font-size: 14px;
+    background-color:#9c27b0;
+}
+.btn-sm{
+    font-size: 12px;
+    background-color:#ee0d0d;
+}
+.btn-primary{
+    border: none;
+}
+.colorblack{
+    color: #6e6e6e;
+    border-color: #d0d8dc;
+}
+.colorwhite{
+    color: white; 
+}
+.download{
+    background-color:#95cc47;
+}
+.download:hover{
+    background-color:#95c355;
+}
+.warning{
+    background-color: #ffca28;
+}
+.warning:hover{
+    background-color: #d6c93c;
+}
+.delete{
+    background-color: #f05050;
+}
+.delete:hover{
+    background-color: #de6060;
+}
+
+.btndropdown {
+ //   background-color: #2196F3;
+    color: white;
+    padding: 10px 15px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.dropdown {
+ //   position: absolute;
+    display: inline-block;
+   left: -6px;
+   cursor: pointer;
+    
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    z-index: 1;
+    left: 6px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 9px 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.btndropdown:hover, .dropdown:hover .btndropdown {
+    background-color: #0b7dda;
+}
+.fa.fa-caret-down{
+    color: white;
+    width: 5%;
+}
+
+.blue-button{
+    background-color: #2196F3;
+}
+.yellow-button{
+    background-color: #95cc47;
+}
+.black-button{
+    background-color: black;
+}
+.pink-button{
+    background-color: #ff6682;
+}
+
+.btnicon{
+    padding: 10px 0px;
+    color: white;
+    border: none;
+    width: 8%;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+.productelements{
+    &__recycle{
+    background-color:white;
+    color: black;
+    border: 1px solid #d0d8dc;
+    }
+
+    &__close{
+        background-color:#f05050;
+    }
+
+    &__correct{
+        background-color:#95cc47;
+    }
+
+    &__warning{
+        background-color: #40c4ff;
+    }
+
+    &__setting{
+        background-color: #ffca28;
+    }
+
+    &__refresh{
+        background-color: #00bfa5;
+    }
+
+    &__check{
+      //  position: relative;
+      margin-top: 10px;
+    }
+
+    &__checkbox1{
+     //  position: absolute;
+     float: left;
+    }
+    &__checkbox2{
+     // position: absolute;
+     float: left;
+      margin-left: 12%;
+   
+    }
+
+    &__press{
+        margin-top: 10px;
+    }
+    &__radio1{
+    //    position: absolute;
+       float: left;
+      
+    }
+    &__radio2{
+    //    position: absolute;
+    float: left;
+    margin-left: 10%;
+       
+    }
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 20%;
+    height: 28px;
+    border-color: #d0d8dc;
+  }
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }  
+
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 28px;
+    width: 50%;
+    left: 3px;
+    bottom: 0px;
+    background-color:#f05050;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+
+  input:checked + .slider {
+    background-color: #f2f2f2;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #f2f2f2;
+  }
+
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 38%;
+  }
+
+#toggle-one{
+    margin-left: 12%;
+}
+
+.el-checkbox>input[type="checkbox"]:checked+.el-checkbox-style.colorblue:before{
+background-color: #95cc47;
+color: #95cc47;
+}
+
+
+
+.tgl-sw-android+.btn-switch{
+    background: #f2f2f2;
+    height: 26px;
+    border: 1px solid #d5d9e0;
+}
+#demo .tgl-sw-android+.btn-switch:after{
+    border-radius: 100px;
+    background: #f05050;
+    width: 68%;
+    height: 26px;
+    top: -1px;
+}
+#demo .tgl-sw+.btn-switch:after, .tgl-sw+.btn-switch:before{
+    content: "Off";
+    padding:  6%  12%;
+   color: white;
+}
+
+#demo1 .tgl-sw-android+.btn-switch:after{
+    border-radius: 100px;
+    background: #95cc47;
+    width: 68%;
+    height: 26px;
+    top: -1px;
+}
+#demo1 .tgl-sw+.btn-switch:after, .tgl-sw+.btn-switch:before{
+    content: "Off";
+    padding:  6%  12%;
+   color: white;
+}
+
+#demo2 .tgl-sw-android+.btn-switch:after{
+    border-radius: 100px;
+    background: #ba6dc7;
+    width: 68%;
+    height: 26px;
+    top: -1px;
+}
+#demo2 .tgl-sw+.btn-switch:after, .tgl-sw+.btn-switch:before{
+    content: "Off";
+   padding: 6%  12%;
+   color: white;
+}
+
+#demo3 .tgl-sw-android+.btn-switch:after{
+    border-radius: 100px;
+    background: #ffd256;
+    width: 68%;
+    height: 26px;
+    top: -1px;
+}
+#demo3 .tgl-sw+.btn-switch:after, .tgl-sw+.btn-switch:before{
+    content: "Off";
+    padding: 6% 12%;
+   color: white;
+}
+
+.tgl-sw-android-checked+.btn-switch:after{
+    left: 41%;
+}
+#demo{
+    float: left;
+    
+}
+#demo1{
+    float: left;
+    margin-left: 6%;
+}
+#demo2{
+    float: left;
+    margin-left: 6%;
+}
+#demo3{
+    float: left;
+    margin-left: 6%;
+}
+#demo .tgl-sw.tgl-sw-android.tgl-sw-android-checked.tgl-sw-active+.btn-switch:after, .tgl-sw.tgl-sw-android.tgl-sw-android-checked.tgl-sw-active+.btn-switch:before{
+    content: "On";
+}
+#demo1 .tgl-sw.tgl-sw-android.tgl-sw-android-checked.tgl-sw-active+.btn-switch:after, .tgl-sw.tgl-sw-android.tgl-sw-android-checked.tgl-sw-active+.btn-switch:before{
+    content: "On";
+}
+#demo2 .tgl-sw.tgl-sw-android.tgl-sw-android-checked.tgl-sw-active+.btn-switch:after, .tgl-sw.tgl-sw-android.tgl-sw-android-checked.tgl-sw-active+.btn-switch:before{
+    content: "On";
+}  
+#demo3 .tgl-sw.tgl-sw-android.tgl-sw-android-checked.tgl-sw-active+.btn-switch:after, .tgl-sw.tgl-sw-android.tgl-sw-android-checked.tgl-sw-active+.btn-switch:before{
+    content: "On";
+}

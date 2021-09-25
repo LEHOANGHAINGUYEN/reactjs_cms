@@ -1,0 +1,35 @@
+.staticCard{
+    
+    &--dark, &--purple, &--yellow, &--red{
+        height: 170px;
+        border-radius: 0;
+        h1{
+            font-size: 2rem;
+            font-weight: 700;
+        }
+        &::after{
+            content: "";
+            position: absolute;
+            width: 0;
+            height: 0;
+            right: 0;
+            margin: 0.2rem;
+            border-style: solid;
+            border-width: 0 25px 25px 0;
+            border-color: transparent $bg-white transparent transparent;
+
+        }
+    }
+    &--dark{
+        background: #565a85;
+    }
+    &--purple{
+        background: #8e24aa;
+    }
+    &--yellow{
+        background: #fdcd05;
+    }
+    &--red{
+        background: #ee0d0d;
+    }
+}

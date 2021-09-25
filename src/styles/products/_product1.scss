@@ -1,0 +1,49 @@
+.product1{
+    &__item{
+        margin: 10px 0px;
+        text-align: center;
+    }
+    
+    &__head{
+        position: relative;
+        padding: 30px 15px;
+    }
+
+    &__price{
+       position: absolute;
+       right: 1; 
+       top:23px ;
+       right: 64px ;
+       background: red;
+       color: white;
+
+    }
+
+    &__image{
+       position: absolute;
+       
+    }
+
+    &__content{
+       padding-bottom: 10px;
+    }
+
+    &__title{
+        font-weight: bold;
+        font-size: 16px;
+        padding: 10px 25px;
+    }
+
+    &__description{
+        font-style: italic;
+        padding: 10px 25px;
+    }
+
+    &__button{
+        padding: 10px 25px;
+        height: 40px;
+        border: none;
+        outline: none;
+        background: #fcca06; 
+    }
+}

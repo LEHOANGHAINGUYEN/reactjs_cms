@@ -1,0 +1,44 @@
+.product9{
+  
+    &__add{
+        padding: 8px;
+     
+       background: #fcca06; 
+       }
+      &__booking{
+        height: 350px;
+        overflow-y: scroll;
+        overflow-x: hidden;
+       
+        @include customScrollBar();
+      
+      }
+      &__title{
+          font-weight: bold;
+      }
+      &__text{
+        font-weight: bold; 
+      }
+
+      &__minute{
+          font-size: 12px;
+          color: grey;padding-left: 2%;
+      }
+
+      &__colortext{
+        color:#a3b2ba;
+      }
+    
+     
+}
+.imagesbackground{
+   
+    padding:12px;
+}
+#datepicker3 .ui-widget.ui-widget-content{
+    width: 24%;  
+}
+
+   
+
+

@@ -1,0 +1,100 @@
+.product10{
+    &__add{
+        padding: 12px;
+        background: #fcca06; 
+       }
+    &__titlesmall{
+        font-weight: bold;
+    }
+    &__title1{
+        font-weight: bold;
+    }
+    &__detail{
+        height: 100px;
+    }
+
+    &__content2{
+     height: 200px;
+    }
+
+    &__notify{
+        font-style: italic;
+        font-size: 16px;
+        color: gray;
+    }
+    
+
+}
+.pinkBg {
+    background-color: #92c755!important;
+    background-image: linear-gradient(90deg, #d4f2b2, #eefddd);
+}
+.intro-banner-vdo-play-btn{
+    height:33px;
+    width:35px;
+    position:absolute;
+    top:100%;
+    left:50%;
+    text-align:center;
+    margin:-30px 0 0 -30px;
+    border-radius:100px;
+    z-index:1
+}
+.intro-banner-vdo-play-btn i{
+    line-height:56px;
+    font-size:30px
+}
+.intro-banner-vdo-play-btn .ripple{
+    position:absolute;
+    width:80px;
+    height:80px;
+    z-index:-1;
+    left:58%;
+    top:90%;
+    opacity:0;
+    margin:-52px 0 0 -43px;
+    border-radius:100px;
+    -webkit-animation:ripple 1.8s infinite;
+    animation:ripple 1.8s infinite
+}
+
+@-webkit-keyframes ripple{
+    0%{
+        opacity:1;
+        -webkit-transform:scale(0);
+        transform:scale(0)
+    }
+    100%{
+        opacity:0;
+        -webkit-transform:scale(1);
+        transform:scale(1)
+    }
+}
+@keyframes ripple{
+    0%{
+        opacity:1;
+        -webkit-transform:scale(0);
+        transform:scale(0)
+    }
+    100%{
+        opacity:0;
+        -webkit-transform:scale(1);
+        transform:scale(1)
+    }
+}
+.intro-banner-vdo-play-btn .ripple:nth-child(2){
+    animation-delay:.3s;
+    -webkit-animation-delay:.3s
+
+}
+.intro-banner-vdo-play-btn .ripple:nth-child(3){
+    animation-delay:.6s;
+    -webkit-animation-delay:.6s
+}
+.pinkBg1 {
+    background-color: lightcoral!important;
+    background-image: linear-gradient(90deg, #ffcaca, #ffebeb);
+}
+
+
+

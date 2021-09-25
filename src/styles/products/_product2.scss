@@ -1,0 +1,37 @@
+.product2{
+   
+    &__contentsmall{
+        margin-top: 20px;
+        border-right:  1px solid grey;
+        
+    }
+    &__title{
+    font-weight: bold;
+    }
+    
+    &__text{
+    font-style: italic;
+    }
+
+    &__price{
+        border-radius: 20px;
+        background:red;text-align: center;
+        width:25%;
+        padding: 12px;
+        color: white;
+        margin-top: 20px;
+      
+    }
+
+    &__addcard{
+     padding: 12px;
+     margin-top: 20px;
+    position: static;
+    margin-left: 40%;
+    background: #fcca06; 
+    }
+}
+
+
+
+

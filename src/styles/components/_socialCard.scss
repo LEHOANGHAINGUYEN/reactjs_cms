@@ -1,0 +1,40 @@
+
+
+.socialCard{
+    color: white;
+    &--fb{
+        @include bg-socialCard($facebook);
+    }
+    &--tw{
+        @include bg-socialCard($twitter);
+    }
+    &--gg{
+        @include bg-socialCard($google);
+    }
+    &--in{
+        @include bg-socialCard($linkedin);
+    }
+    > .card{
+        height: 151px;
+        i{
+            font-size: 20px;
+        }
+    }
+    &__item{
+        height: 100%;
+        p{
+            color: $text-white;
+        }
+        &--text{
+            font-size: 15px;
+
+        }
+        &--follower{
+            border-left: 1px solid;
+            span{
+                font-weight: 500;
+                font-size: 30px;
+            }
+        }
+    }
+}

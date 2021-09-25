@@ -1,0 +1,37 @@
+<div class="col-lg-10">
+    <div class="product3">
+        <div class="col main pt-5 mt-3 pr-5 ">
+            <p style="padding-top: 20px;">Home <span>Products_03</span></p>
+            <div class="row">
+                {% for i in 1..9 %}
+                <div class="col-xs-12 col-sm-6 col-lg-4 mb-3">
+
+                    <div class="product3__item card">
+                        <div class="row">
+                            <div class="col-sm-5">
+                                <img class="product3__image" src="./assets/images/pizza.png" />
+                            </div>
+                            <div class="col-sm-7">
+                                <div class="product3__content">
+                                    <div class="product3__title">
+                                        Supreme Pizza
+                                    </div>
+                                    <div class="product3__description">
+                                        Vimply dummy text printing and typesetting indust
+                                    </div>
+                                    <div class="product3__priceandadd">
+                                        <span class="product3__price rounded-circle">$39</span>
+                                        <button class="product3__button border-warning yescolor">
+                                            ADD TO CART
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>

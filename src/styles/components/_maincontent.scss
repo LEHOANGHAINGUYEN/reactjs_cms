@@ -1,0 +1,128 @@
+
+
+.main{ 
+    .breadcrumb{
+        background: transparent;
+       .breadcrumb-item{
+           a{
+                color: darken($color: lightgray, $amount: 20%);
+                &:hover{
+                    text-decoration: none;
+                }
+           }
+       }
+        .breadcrumb-item:not(:nth-child(1))::before{
+            content: "-";
+
+        }
+    }
+
+    .fullcard{
+        background: $bg-white;
+        position: relative;
+        .activity{
+            &__status{
+                &--heading{
+                    font-size: 1rem;
+                    font-weight: 600;
+                    
+                }
+                span{
+                    color: #b0bec5;
+                }
+            }
+        }
+        hr{
+            margin-top:0rem;
+        }
+        .foodmenu{
+            &__icon{
+    
+            }
+            &__name{
+                border-left: 1px solid #d1d1d1;
+            }
+            &__price{
+                span{
+                    font-weight: 700;
+                    color: #f02d2d;
+                }
+            }
+        }
+        .loadmore{
+            width: 100%;
+            bottom: 0;
+            position: absolute;
+            padding: 10px;
+            text-align: center;
+            background-color: #95cc47;
+            border-width: 0 1px 1px 0;
+            border-style: none;
+            border-color: $bg-white;
+            box-shadow: 0 1px 1px #ccc;
+            transition: all 600ms ease-in-out;
+            &:hover{
+                background-color: $bg-white;
+                color: darken($color: #95cc47, $amount: 20%);
+                
+                a{
+                    transform: scale(1.1);
+                    font-weight: 700;
+                    color: darken($color: #95cc47, $amount: 20%);
+                }
+            }
+            a{
+                color: $text-white;
+                text-decoration: none;
+            }
+        }
+        .customFeed{
+            height: 270px;
+            overflow-y: scroll;
+            overflow-x: hidden;
+            @include customScrollBar();
+            &__name{
+                .timelog{
+                    margin: 8px;
+                    color: darken($color: lightgray, $amount: 20%);
+                }
+            }
+        }
+        .recentActi{
+            height: 270px;
+            overflow-y: scroll;
+            overflow-x: hidden; 
+            @include customScrollBar();
+            ul.timeline {
+                list-style-type: none;
+                position: relative;
+                height: 100%;
+            }
+            ul.timeline:before {
+                content: ' ';
+                background: #d4d9df;
+                display: inline-block;
+                position: absolute;
+                left: 4px;
+                width: 2px;
+                height: 100%;
+                z-index: 400;
+            }
+            ul.timeline > li {
+                padding-left: 20px;
+            }
+            ul.timeline > li:before {
+                content: ' ';
+                background: $bg-white;
+                display: inline-block;
+                position: absolute;
+                border-radius: 50%;
+                border: 3px solid #22c0e8;
+                left: 0;
+                width: 10px;
+                height: 10px;
+                z-index: 400;
+            }
+        }
+    }
+ }

@@ -1,0 +1,182 @@
+<div class="row mb-3">
+    <div class="col-12 col-md-4">
+        <div class="fullcard h-100 ">
+            <div class="activity">
+                <div class="activity__status p-3">
+                    <h3 class="activity__status--heading text-left pl-2">Hot Food Menu <a href=""><span class=" float-right fas fa-ellipsis-h"></span></a></h3>
+                </div>
+                <hr>
+            </div>
+            <div class="foodmenu mb-5">
+                <div class="row pt-3 pb-3 pl-3 d-flex justify-content-center">
+                    <div class="col-sm-2 foodmenu__icon d-flex justify-content-center">
+                        <img class="" src="./assets/images/foodMenu1.png" alt="">
+                    </div>
+                    <div class="col-sm-8 foodmenu__name">
+                        <span> Jumbo Burger</span>
+                    </div>
+                    <div class="col-sm-2 foodmenu__price">
+                        <span>$39</span>
+                    </div>
+                </div>
+                <hr>
+                <div class="row pb-3 pl-3">
+                    <div class="col-sm-2 foodmenu__icon d-flex justify-content-center">
+                        <img src="./assets/images/foodMenu2.png" alt="">
+                    </div>
+                    <div class="col-sm-8 foodmenu__name">
+                        <span> Jumbo Burger</span>
+                    </div>
+                    <div class="col-sm-2 foodmenu__price">
+                        <span>$29</span>
+                    </div>
+                </div>
+                <hr>
+                <div class="row pb-3 pl-3">
+                    <div class="col-sm-2 foodmenu__icon d-flex justify-content-center">
+                        <img src="./assets/images/foodMenu4.png" alt="">
+                    </div>
+                    <div class="col-sm-8 foodmenu__name">
+                        <span> Jumbo Burger</span>
+                    </div>
+                    <div class="col-sm-2 foodmenu__price">
+                        <span>$10</span>
+                    </div>
+                </div>
+                <hr>
+                <div class="row pb-3 pl-3">
+                    <div class="col-sm-2 foodmenu__icon d-flex justify-content-center">
+                        <img src="./assets/images/foodMenu2.png" alt="">
+                    </div>
+                    <div class="col-sm-8 foodmenu__name">
+                        <span> Jumbo Burger</span>
+                    </div>
+                    <div class="col-sm-2 foodmenu__price">
+                        <span>$15</span>
+                    </div>
+                </div>
+            </div>
+            <div class="loadmore">
+                <a href="#" id="loadMore">Load More</a>
+            </div>
+        </div>
+
+    </div>
+    <div class="col-12 col-md-4  text-center">
+        <div class="fullcard h-100 ">
+            <div class="activity">
+                <div class="activity__status p-3">
+                    <h3 class="activity__status--heading text-left pl-2">Custom Feed <a href=""><span class=" float-right fas fa-ellipsis-h"></span></a></h3>
+                </div>
+                <hr>
+            </div>
+            <div class="customFeed">
+                {%for i in 1..5%}
+                <div class="row pt-2 pb-3 pl-3">
+                        <div class="col-sm-2 customFeed__icon d-flex justify-content-center">
+                            <img src="./assets/images/customer4.png" alt="">
+                        </div>
+                        <div class="col-sm-10 customFeed__name text-left d-flex flex-column">
+                            <span><b>Mike Hussy</b></span>
+                            <span>Awesome Menu</span>
+                        </div>
+                    </div>
+                    <div class="row pt-2 pb-3 pl-3">
+                        <div class="col-sm-2 customFeed__icon d-flex justify-content-center">
+                            <img src="./assets/images/customer2.png" alt="">
+                        </div>
+                        <div class="col-sm-10 customFeed__name text-left d-flex flex-column">
+                            <span><b>Harry Jones</b></span>
+                            <span>Testi Menu</span>
+                        </div>
+                    </div>
+                    <div class="row pt-2 pb-3 pl-3">
+                        <div class="col-sm-2 customFeed__icon d-flex justify-content-center">
+                            <img src="./assets/images/customer3.png" alt="">
+                        </div>
+                        <div class="col-sm-10 customFeed__name text-left d-flex flex-column">
+                            <span><b>Iffat Reo</b></span>
+                            <span>Great Support, Like It Very Much</span>
+                        </div>
+                    </div>
+                    <div class="row pt-2 pb-3 pl-3">
+                        <div class="col-sm-2 customFeed__icon d-flex justify-content-center">
+                            <img src="./assets/images/customer4.png" alt="">
+                        </div>
+                        <div class="col-sm-10 customFeed__name text-left d-flex flex-column">
+                            <span><b>Mike Hussy</b></span>
+                            <span>Awesome Menu</span>
+                        </div>
+                    </div>
+                    <div class="row pt-2 pb-3 pl-3">
+                        <div class="col-sm-2 customFeed__icon d-flex justify-content-center">
+                            <img src="./assets/images/customer2.png" alt="">
+                        </div>
+                        <div class="col-sm-10 customFeed__name text-left d-flex flex-column">
+                            <span><b>Harry Jones</b></span>
+                            <span>Testi Menu</span>
+                        </div>
+                    </div>
+                    <div class="row pt-2 pb-3 pl-3">
+                        <div class="col-sm-2 customFeed__icon d-flex justify-content-center">
+                            <img src="./assets/images/customer3.png" alt="">
+                        </div>
+                        <div class="col-sm-10 customFeed__name text-left d-flex flex-column">
+                            <span><b>Iffat Reo</b></span>
+                            <span>Great Support, Like It Very Much</span>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <div class="col-12 col-md-4  text-center">
+        <div class="fullcard h-100 ">
+            <div class="activity">
+                <div class="activity__status p-3">
+                    <h3 class="activity__status--heading text-left pl-2">Recent Activities <a href=""><span class=" float-right fas fa-ellipsis-h"></span></a></h3>
+                </div>
+                <hr>
+            </div>
+            <div class="recentActi">
+                <div class="col-sm-12">
+                    <ul class="timeline float-left text-left">
+                        {% for i in 1..10 %}
+                        <li>
+                                <a class="timelog" target="_blank" href="https://www.totoprayogo.com/#">9 minutes ago</a>
+    
+                                <p>You followed Olivia Williamson</p>
+                            </li>
+                            <li>
+                                <a href="#">20 minutes ago</a>
+    
+                                <p>You Subcribed to Harold Williamson</p>
+                            </li>
+                            <li>
+                                <a href="#">30 minutes ago</a>
+    
+                                <p>You Updated your profile picture</p>
+                            </li>
+                            <li>
+                                <a href="#">35 minutes ago</a>
+    
+                                <p>You deleted homepage.psd</p>
+                            </li>
+                            <li>
+                                <a href="#">45 minutes ago</a>
+    
+                                <p>You deleted homepage.psd</p>
+                            </li>
+                            <li>
+                                <a href="#">55 minutes ago</a>
+    
+                                <p>You deleted homepage.psd</p>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

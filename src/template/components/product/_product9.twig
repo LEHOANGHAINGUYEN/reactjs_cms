@@ -1,0 +1,94 @@
+<div class="col-lg-10">
+    <div class="product9">
+        <div class="col main pt-5 mt-3 pr-5">
+
+            <nav class="breadcrumb pt-3 pl-0 pb-3">
+                <a class="breadcrumb-item" href="#">Home</a>
+                <span class="breadcrumb-item active">Booking System</span>
+
+            </nav>
+        </div>
+
+
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Booking Form <a href="">
+                                <span class=" float-right fas fa-ellipsis-h"></span></a></h5>
+                        <hr>
+                        <div class="product9__form">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="product9__content1 pt-4">
+                                        <input type="text" placeholder="Full Name" class="form-control">
+                                        <div class="input-group date pt-4">
+                                             <input class="form-control" type="text" id="datepicker3" placeholder="Date" />
+                                             
+                                            <!-- <span class="input-group-append">
+                                                <button class="btn btn-outline-secondary" type="button">
+                                                    <i class="fa fa-calendar"></i>
+                                                </button>
+                                            </span>  -->
+                                           
+                                            <!-- <p>Date: <input type="text" id="datepicker"></p> -->
+                                            <!-- <img class="ui-datepicker-trigger" src="images/calendar.gif" alt="Select date" title="Select date"> -->
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="product9__content2 pt-4">
+                                        <input type="text" placeholder="Last Name" class="form-control">
+                                        <div class="product9__time pt-4"><input type="text" placeholder="Time" class="form-control"></div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="product9__content3 pt-4">
+                                        <input type="email" placeholder="E-mail" class="form-control">
+                                        <div class="product9__phone pt-4"> <input type="number" placeholder="Phone"
+                                                class="form-control "></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row pt-4 ml-1">
+                                <div class="product9__addborder"><button class="product9__add border border-warning">ADD
+                                        TO CART</button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row pt-5">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="product9__title">Customer Booking Table<a href="">
+                                <span class=" float-right fas fa-ellipsis-h"></span></a></h5>
+                        <hr>
+                        <div class="product9__booking">
+                            {% for i in 1..10 %}
+                            <div class="row pt-1">
+                                <div class="col-lg-1">
+                                    <img class="imagesbackground" src="./assets/images/customer1.png">
+                                </div>
+                                <div class="col-lg-11 pt-1">
+                                    <p class="product9__text">Jennyfar Lopez<span class="product9__minute">5 min ago</span></p>
+                                    <span class="product9__colortext">New Food Menu Was awesome</span>
+                                </div>
+                            </div>
+                            {%endfor%}
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,50 @@
+<div class="col-lg-10">
+    <div class="product7">
+
+        <div class="col main pt-5 mt-3 pr-5 ">
+            
+            <nav class="breadcrumb pt-3 pl-0 pb-3">
+                    <a class="breadcrumb-item" href="#">Home</a>
+                    <span class="breadcrumb-item active">Favourite</span>
+            </nav>
+            <div class="row">
+                <div class="col-12">
+                    <div class="card h-90 ">
+                        <div class="product7__title">
+                            <div class="product7__status p-3">
+                                <h5 class="product7__status--head text-left pl-2">Favourite Menu List <a href="">
+                                        <span class=" float-right fas fa-ellipsis-h"></span></a></h5>
+                            </div>
+                         <hr>
+                        </div>
+                        <div class="product7__list">
+                            <div class="row">
+                                {%for i in 1..9 %}
+
+                                <div class="product7__item col-12">
+                                    <div class="row">
+                                        <div class="col-sm-2">
+                                            <div class="product7__borderimg">
+                                                <a href="#"><img class="product7__images" src="./assets/images/pizza.png"></a>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-8">
+                                            <h6 class="product7__nameproduct"><a href="#">Pizza Tophy</a></h6>
+                                        </div>
+                                        <div class="col-sm-2 mt-4">
+                                            <span class="product7__price">$39</span>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                </div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>

@@ -1,0 +1,168 @@
+.product11{
+    &__title2{
+        color: red;
+    }
+    &__addnote{
+      width: 100%;
+      background: #ee0d0d;
+      border-color: #ee0d0d;
+
+    }
+    &__colorpurple{
+        background-color: #8e24aa;
+        padding: 5px 10px;
+    }
+
+    &__colorblue{
+        background-color: #40c4ff;
+        padding: 5px 10px;
+    }
+
+    &__colorred{
+        background-color:#f71f1f;
+        padding: 5px 10px;
+    }
+
+    &__text{
+        line-height: 1.5;
+        color:#939393;
+        line-height: 18px;
+    }
+
+    &__border{
+        border-bottom: 1px solid #eeeeee;
+    }
+
+    &__note{
+        height: 100%;
+    }
+
+    &__close{
+        color: red;
+    }
+
+    &__background{
+        color: gray;
+    }
+
+    &__calendar{
+        height: 50px;
+        padding-top: 10px;
+        border-left: none;
+        border-right: none;
+        border-top:none;
+        border-bottom: 1px solid #eeeeee;
+    }
+    
+    &__move{
+      float: right;
+    }
+    &__prev{
+        background: #fcca06;
+        padding: 5px 17px;
+        
+    }
+
+    &__next{
+        background: #e4e3e2;
+        padding: 5px 17px;
+      
+    }
+
+    &__previously{
+        background: #fcca06;
+        padding: 5px 17px;
+     
+    }
+    &__sequent{
+        background: #e4e3e2;
+        padding: 5px 17px;
+    }
+
+    &__font{
+        font-size: 13px;
+    }
+
+    &__movedatapicker{
+     // float: left;
+    }
+
+   
+}
+
+#datetimepicker6 .ui-widget.ui-widget-content{
+    width: 100%;
+    border: none;
+}
+#datetimepicker6 .ui-state-default, .ui-widget-content .ui-state-default{
+    border-radius: 54%;
+    width: 60%;
+    margin: auto;
+}
+#datetimepicker6 .ui-datepicker table {
+    height: 300px;
+ }
+
+ #datetimepicker6 .ui-datepicker .ui-datepicker-header{
+    display: none;
+ }
+#datetimepicker5 .ui-widget.ui-widget-content{
+     width: 75%;
+     border: none;
+     
+ }
+ #datetimepicker5 .ui-datepicker table {
+    height: 315px;
+ }
+
+ .fa{
+     color: red;
+     width: 20px;
+ }
+ .fa-2x{
+     font-size: 1.5em;
+ }
+ 
+ #datetimepicker5 .ui-datepicker-calendar{
+     margin-top: 2%;
+    
+ }
+ #datetimepicker5 .ui-datepicker-prev.ui-corner-all{
+    display: none;
+   
+}
+#datetimepicker5 .ui-datepicker-next.ui-corner-all{
+    display: none;
+}
+
+.ui-state-default {
+    text-align: center;
+    
+}
+.ui-state-default, .ui-widget-content .ui-state-default{
+    text-align: center;
+    border-color: white;
+}
+
+
+#datetimepicker5 .ui-datepicker .ui-datepicker-header{
+   display: none;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default{
+    border-radius: 80%;
+    width: 30%;
+    margin: auto;
+}
+.ui-datepicker td{
+    border: 1px solid #eeeeee;
+}
+#datetimepicker5 .ui-datepicker th{
+   border: 1px solid #eeeeee;
+}
+
+.border-warning{
+    border: none !important;
+}
+
+  

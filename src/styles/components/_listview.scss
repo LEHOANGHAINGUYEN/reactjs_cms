@@ -1,0 +1,84 @@
+
+.box-body {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    padding: 10px;
+    .todo-list{
+      margin: 0;
+      padding: 0 10px;
+      list-style: none;
+      overflow: auto;
+      &__tools{
+        button{
+          border: none;
+          background: transparent;
+          i{
+            margin: 0 .5rem;
+          color: #a1a1a1;
+            transition: all .2s ease-in-out;
+            &:hover{
+              transform: scale(2);
+            }
+          }
+          &:hover{
+            outline-color: darken($color: #a1a1a1, $amount: 10%);
+          }
+        }
+      }
+      li{
+        span{
+          color: #707070;
+          font-style: normal;
+        }
+        background: #f8f8f8!important;
+        border-radius: 2px;
+        padding: 10px;
+        background: #f4f4f4;
+        margin-bottom: 10px;
+        color: #444;
+  
+        
+      }
+    }
+  }
+  
+
+  
+  .no-border {
+    border: 0 !important;
+  }
+  .box-footer {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top: 1px solid #f4f4f4;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    .btn{
+      width: 100%;
+      font-size: 14px;
+      border-radius: 40px;
+      background: #f8f8f8;
+      &--add{
+        color: $text-white;
+        background: #1e88e5;
+        font-weight: 700;
+      }
+    }
+    input{
+      border-radius: 40px;
+      border: none;
+      background: #f8f8f8;
+      box-sizing: border-box;
+      padding-left: 30px;
+    }
+}
+.orderList{
+  &__head{
+    background: #546e7a;
+  }
+}
